@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B720D0D4267878A900981E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D0D3267878A900981E71 /* AppDelegate.swift */; };
-		B720D0D6267878A900981E71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D0D5267878A900981E71 /* SceneDelegate.swift */; };
 		B720D0D8267878A900981E71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D0D7267878A900981E71 /* ViewController.swift */; };
-		B720D0DB267878A900981E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B720D0D9267878A900981E71 /* Main.storyboard */; };
 		B720D0DD267878AB00981E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B720D0DC267878AB00981E71 /* Assets.xcassets */; };
 		B720D0E0267878AB00981E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B720D0DE267878AB00981E71 /* LaunchScreen.storyboard */; };
+		B720D0E926787A0600981E71 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D0E826787A0600981E71 /* MainTabbarController.swift */; };
+		B720D0EB2678810100981E71 /* PodcastSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D0EA2678810100981E71 /* PodcastSearchController.swift */; };
+		B720D0EE2678819100981E71 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D0ED2678819100981E71 /* Podcast.swift */; };
+		B720D0F126788F7700981E71 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D0F026788F7700981E71 /* APIService.swift */; };
+		B720D0F32678A18800981E71 /* PodcastResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D0F22678A18800981E71 /* PodcastResultCell.swift */; };
+		B720D0F62678A99400981E71 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B720D0F52678A99400981E71 /* Kingfisher */; };
+		B720D0F8267953FB00981E71 /* PodcastEpisodesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D0F7267953FB00981E71 /* PodcastEpisodesController.swift */; };
+		B720D0FB267955B400981E71 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = B720D0FA267955B400981E71 /* FeedKit */; };
+		B720D0FD26795EED00981E71 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D0FC26795EED00981E71 /* EpisodeCell.swift */; };
+		B720D1002679669900981E71 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D0FF2679669900981E71 /* String+.swift */; };
+		B720D10226796B1C00981E71 /* RSSFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D10126796B1C00981E71 /* RSSFeed.swift */; };
+		B720D10426797D2400981E71 /* PlayerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D10326797D2400981E71 /* PlayerDetailsView.swift */; };
+		B720D1062679BC5500981E71 /* CMTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720D1052679BC5500981E71 /* CMTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B720D0D0267878A900981E71 /* PodcastsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B720D0D3267878A900981E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B720D0D5267878A900981E71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B720D0D7267878A900981E71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B720D0DA267878A900981E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B720D0DC267878AB00981E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B720D0DF267878AB00981E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B720D0E1267878AB00981E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B720D0E826787A0600981E71 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		B720D0EA2678810100981E71 /* PodcastSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastSearchController.swift; sourceTree = "<group>"; };
+		B720D0ED2678819100981E71 /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		B720D0F026788F7700981E71 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		B720D0F22678A18800981E71 /* PodcastResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastResultCell.swift; sourceTree = "<group>"; };
+		B720D0F7267953FB00981E71 /* PodcastEpisodesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastEpisodesController.swift; sourceTree = "<group>"; };
+		B720D0FC26795EED00981E71 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+		B720D0FF2679669900981E71 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		B720D10126796B1C00981E71 /* RSSFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeed.swift; sourceTree = "<group>"; };
+		B720D10326797D2400981E71 /* PlayerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsView.swift; sourceTree = "<group>"; };
+		B720D1052679BC5500981E71 /* CMTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B720D0F62678A99400981E71 /* Kingfisher in Frameworks */,
+				B720D0FB267955B400981E71 /* FeedKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +78,56 @@
 		B720D0D2267878A900981E71 /* PodcastsApp */ = {
 			isa = PBXGroup;
 			children = (
+				B720D0FE2679668100981E71 /* Extensions */,
+				B720D0EF26788F6500981E71 /* API */,
+				B720D0EC2678818300981E71 /* Models */,
+				B720D0E7267879E500981E71 /* MainTabbar */,
 				B720D0D3267878A900981E71 /* AppDelegate.swift */,
-				B720D0D5267878A900981E71 /* SceneDelegate.swift */,
 				B720D0D7267878A900981E71 /* ViewController.swift */,
-				B720D0D9267878A900981E71 /* Main.storyboard */,
 				B720D0DC267878AB00981E71 /* Assets.xcassets */,
 				B720D0DE267878AB00981E71 /* LaunchScreen.storyboard */,
 				B720D0E1267878AB00981E71 /* Info.plist */,
+				B720D0EA2678810100981E71 /* PodcastSearchController.swift */,
+				B720D0F22678A18800981E71 /* PodcastResultCell.swift */,
+				B720D0F7267953FB00981E71 /* PodcastEpisodesController.swift */,
+				B720D0FC26795EED00981E71 /* EpisodeCell.swift */,
+				B720D10326797D2400981E71 /* PlayerDetailsView.swift */,
 			);
 			path = PodcastsApp;
+			sourceTree = "<group>";
+		};
+		B720D0E7267879E500981E71 /* MainTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				B720D0E826787A0600981E71 /* MainTabbarController.swift */,
+			);
+			path = MainTabbar;
+			sourceTree = "<group>";
+		};
+		B720D0EC2678818300981E71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B720D0ED2678819100981E71 /* Podcast.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B720D0EF26788F6500981E71 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B720D0F026788F7700981E71 /* APIService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B720D0FE2679668100981E71 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B720D0FF2679669900981E71 /* String+.swift */,
+				B720D10126796B1C00981E71 /* RSSFeed.swift */,
+				B720D1052679BC5500981E71 /* CMTime.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +146,10 @@
 			dependencies = (
 			);
 			name = PodcastsApp;
+			packageProductDependencies = (
+				B720D0F52678A99400981E71 /* Kingfisher */,
+				B720D0FA267955B400981E71 /* FeedKit */,
+			);
 			productName = PodcastsApp;
 			productReference = B720D0D0267878A900981E71 /* PodcastsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +177,10 @@
 				Base,
 			);
 			mainGroup = B720D0C7267878A900981E71;
+			packageReferences = (
+				B720D0F42678A99400981E71 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				B720D0F9267955B400981E71 /* XCRemoteSwiftPackageReference "FeedKit" */,
+			);
 			productRefGroup = B720D0D1267878A900981E71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +197,6 @@
 			files = (
 				B720D0E0267878AB00981E71 /* LaunchScreen.storyboard in Resources */,
 				B720D0DD267878AB00981E71 /* Assets.xcassets in Resources */,
-				B720D0DB267878A900981E71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +207,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B720D10426797D2400981E71 /* PlayerDetailsView.swift in Sources */,
+				B720D0F8267953FB00981E71 /* PodcastEpisodesController.swift in Sources */,
+				B720D0F32678A18800981E71 /* PodcastResultCell.swift in Sources */,
+				B720D10226796B1C00981E71 /* RSSFeed.swift in Sources */,
+				B720D1002679669900981E71 /* String+.swift in Sources */,
+				B720D0EB2678810100981E71 /* PodcastSearchController.swift in Sources */,
+				B720D1062679BC5500981E71 /* CMTime.swift in Sources */,
 				B720D0D8267878A900981E71 /* ViewController.swift in Sources */,
 				B720D0D4267878A900981E71 /* AppDelegate.swift in Sources */,
-				B720D0D6267878A900981E71 /* SceneDelegate.swift in Sources */,
+				B720D0E926787A0600981E71 /* MainTabbarController.swift in Sources */,
+				B720D0F126788F7700981E71 /* APIService.swift in Sources */,
+				B720D0EE2678819100981E71 /* Podcast.swift in Sources */,
+				B720D0FD26795EED00981E71 /* EpisodeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B720D0D9267878A900981E71 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B720D0DA267878A900981E71 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B720D0DE267878AB00981E71 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AA4M8PFN6;
 				INFOPLIST_FILE = PodcastsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AA4M8PFN6;
 				INFOPLIST_FILE = PodcastsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +415,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B720D0F42678A99400981E71 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
+		B720D0F9267955B400981E71 /* XCRemoteSwiftPackageReference "FeedKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nmdias/FeedKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B720D0F52678A99400981E71 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B720D0F42678A99400981E71 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		B720D0FA267955B400981E71 /* FeedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B720D0F9267955B400981E71 /* XCRemoteSwiftPackageReference "FeedKit" */;
+			productName = FeedKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B720D0C8267878A900981E71 /* Project object */;
 }
